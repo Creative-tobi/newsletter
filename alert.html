@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Alert message</title>
+  </head>
+  <body class="md:bg-blue-950 place-items-center md:mt-40">
+    <section
+      class="bg-white justify-evenly rounded-2xl p-4 max-w-md">
+      <img src="./assets/images/icon-success.svg" alt="success icon" class="my-4">
+      
+      <h1 class="font-bold text-3xl text-blue-950 my-4">Thanks for subscribing!</h1> 
+      <p>A confirmation email has been sent to
+    ash@loremcompany.com. Please open it and click the button inside to confirm
+    your subscription.</p> <br>
+
+    <button
+          class="bg-blue-950 rounded-md text-white px-4 py-3 my-2 cursor-pointer focus:bg-linear-65 
+          from-red-400 to-pink-500 focus:shadow-lg focus:shadow-red-300 w-[100%] md:mt-0"
+          id="btn">
+          Dismiss message
+        </button>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
