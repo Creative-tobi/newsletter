@@ -80,7 +80,7 @@ btn.addEventListener("click", subscribe)
 
 ### Useful resources
 
-- [Tailwind CDN](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Tailwind CDN](https://www.example.com) - This helped me for styling my html. I really liked this pattern and will use it going forward.
 
 ## Author
 
