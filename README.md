@@ -78,11 +78,11 @@ btn.addEventListener("click", subscribe)
 ```
 
 
-###Useful resources
+### Useful resources
 
 - [Tailwind CDN](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
-##Author
+## Author
 
 - Website - [Creative-tobi](https://newsletter-six-gamma.vercel.app/)
 - Frontend Mentor - [@Creative-tobi](https://www.frontendmentor.io/profile/Creative-tobi)
