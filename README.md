@@ -52,7 +52,7 @@ Users should be able to:
 
 This project was a fantastic exercise in applying my foundational skills in HTML, CSS, and vanilla JavaScript. My key learnings focused on handling user input and manipulating the DOM.
 
-**1. Form Validation with a Conditional Statement**
+1. Form Validation with a Conditional Statement
 I learned how to validate the form submission using a simple conditional statement. I checked if the email input field was empty and also if it contained both an `@` symbol and a `.` to ensure it resembled a valid email address.
 
 ```js
@@ -61,7 +61,7 @@ const input = document.getElementById('input');
 const errorState = document.getElementById('errorState');
 
 
-//validating the input field
+```//validating the input field
 function subscribe(){
   if((input.value).includes("@") && (input.value).includes(".")){
     input.style.borderColor = "green"; 
@@ -75,14 +75,14 @@ function subscribe(){
   }
 }
 
-btn.addEventListener("click", subscribe)
+```btn.addEventListener("click", subscribe)
 
 
-**### Useful resources
+### Useful resources
 
 - [Tailwind CDN](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
-**## Author
+## Author
 
 - Website - [Creative-tobi](https://newsletter-six-gamma.vercel.app/)
 - Frontend Mentor - [@Creative-tobi](https://www.frontendmentor.io/profile/Creative-tobi)
