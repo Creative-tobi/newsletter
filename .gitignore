@@ -3,6 +3,7 @@
 *.fig
 *.xd
 
+README-template.md
 # Dependencies
 /node_modules
 /.pnp
