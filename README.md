@@ -61,7 +61,7 @@ const input = document.getElementById('input');
 const errorState = document.getElementById('errorState');
 
 
-```//validating the input field
+//validating the input field
 function subscribe(){
   if((input.value).includes("@") && (input.value).includes(".")){
     input.style.borderColor = "green"; 
@@ -75,7 +75,7 @@ function subscribe(){
   }
 }
 
-```btn.addEventListener("click", subscribe)
+btn.addEventListener("click", subscribe)```
 
 
 ### Useful resources
