@@ -75,6 +75,7 @@ function subscribe(){
 }
 
 btn.addEventListener("click", subscribe)
+```
 
 
 Useful resources
